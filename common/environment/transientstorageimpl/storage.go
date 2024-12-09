@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/v2fly/v2ray-core/v5/features/extension/storage"
+	"github.com/make-money-fast/v2ray-core-v5/features/extension/storage"
 )
 
 func NewScopedTransientStorageImpl() storage.ScopedTransientStorage {

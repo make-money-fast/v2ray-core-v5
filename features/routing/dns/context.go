@@ -3,9 +3,9 @@ package dns
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen
 
 import (
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/features/dns"
-	"github.com/v2fly/v2ray-core/v5/features/routing"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/features/dns"
+	"github.com/make-money-fast/v2ray-core-v5/features/routing"
 )
 
 // ResolvableContext is an implementation of routing.Context, with domain resolving capability.

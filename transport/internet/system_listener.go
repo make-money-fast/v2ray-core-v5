@@ -11,8 +11,8 @@ import (
 
 	"github.com/pires/go-proxyproto"
 
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
 )
 
 var effectiveListener = DefaultListener{}

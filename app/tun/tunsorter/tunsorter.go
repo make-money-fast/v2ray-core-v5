@@ -5,13 +5,13 @@ import (
 	"io"
 	"sync"
 
-	"github.com/v2fly/v2ray-core/v5/app/tun/packetparse"
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/net/packetaddr"
-	vudp "github.com/v2fly/v2ray-core/v5/common/protocol/udp"
-	"github.com/v2fly/v2ray-core/v5/features/routing"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/udp"
+	"github.com/make-money-fast/v2ray-core-v5/app/tun/packetparse"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/net/packetaddr"
+	vudp "github.com/make-money-fast/v2ray-core-v5/common/protocol/udp"
+	"github.com/make-money-fast/v2ray-core-v5/features/routing"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/udp"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

@@ -14,15 +14,15 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/common"
-	v2net "github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/common/signal/done"
-	"github.com/v2fly/v2ray-core/v5/common/task"
-	"github.com/v2fly/v2ray-core/v5/features/extension"
-	"github.com/v2fly/v2ray-core/v5/features/outbound"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/tagged"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	v2net "github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/common/signal/done"
+	"github.com/make-money-fast/v2ray-core-v5/common/task"
+	"github.com/make-money-fast/v2ray-core-v5/features/extension"
+	"github.com/make-money-fast/v2ray-core-v5/features/outbound"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/tagged"
 )
 
 type Observer struct {

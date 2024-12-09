@@ -1,11 +1,11 @@
 package scenarios
 
 import (
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/instman"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/features/extension"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/instman"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/features/extension"
 )
 
 func NewInstanceManagerInstanceConfig() *core.Config {

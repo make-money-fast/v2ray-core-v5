@@ -8,7 +8,7 @@ import (
 	hyServer "github.com/apernet/hysteria/core/v2/server"
 	"github.com/apernet/quic-go"
 
-	"github.com/v2fly/v2ray-core/v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
 )
 
 const CanNotUseUdpExtension = "Only hysteria2 proxy protocol can use udpExtension."

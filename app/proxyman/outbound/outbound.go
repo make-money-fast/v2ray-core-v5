@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/errors"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/features/outbound"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/proxyman"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/features/outbound"
 )
 
 // Manager is to manage all outbound handlers.

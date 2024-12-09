@@ -6,13 +6,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/protocol"
-	"github.com/v2fly/v2ray-core/v5/common/uuid"
-	"github.com/v2fly/v2ray-core/v5/proxy/vmess"
-	. "github.com/v2fly/v2ray-core/v5/proxy/vmess/encoding"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol"
+	"github.com/make-money-fast/v2ray-core-v5/common/uuid"
+	"github.com/make-money-fast/v2ray-core-v5/proxy/vmess"
+	. "github.com/make-money-fast/v2ray-core-v5/proxy/vmess/encoding"
 )
 
 func toAccount(a *vmess.Account) protocol.Account {

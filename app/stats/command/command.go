@@ -9,11 +9,11 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/stats"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/strmatcher"
-	feature_stats "github.com/v2fly/v2ray-core/v5/features/stats"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/stats"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/strmatcher"
+	feature_stats "github.com/make-money-fast/v2ray-core-v5/features/stats"
 )
 
 // statsServer is an implementation of StatsService.

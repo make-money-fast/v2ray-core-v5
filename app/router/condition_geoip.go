@@ -5,8 +5,8 @@ import (
 
 	"go4.org/netipx"
 
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
-	"github.com/v2fly/v2ray-core/v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
 )
 
 type GeoIPMatcher struct {

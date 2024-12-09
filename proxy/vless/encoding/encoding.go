@@ -5,10 +5,10 @@ package encoding
 import (
 	"io"
 
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/protocol"
-	"github.com/v2fly/v2ray-core/v5/proxy/vless"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol"
+	"github.com/make-money-fast/v2ray-core-v5/proxy/vless"
 )
 
 const (

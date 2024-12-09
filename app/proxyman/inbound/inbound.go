@@ -6,12 +6,12 @@ import (
 	"context"
 	"sync"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/features/inbound"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/proxyman"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/features/inbound"
 )
 
 // Manager is to manage all inbound handlers.

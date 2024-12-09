@@ -9,15 +9,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/protocol/tls/cert"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/testing/servers/udp"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/hysteria2"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/tls"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol/tls/cert"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/testing/servers/udp"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/hysteria2"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/tls"
 )
 
 func TestTCP(t *testing.T) {

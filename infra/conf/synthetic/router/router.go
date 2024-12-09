@@ -9,12 +9,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/v2fly/v2ray-core/v5/app/router"
-	"github.com/v2fly/v2ray-core/v5/common/platform"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/cfgcommon"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/geodata"
-	rule2 "github.com/v2fly/v2ray-core/v5/infra/conf/rule"
+	"github.com/make-money-fast/v2ray-core-v5/app/router"
+	"github.com/make-money-fast/v2ray-core-v5/common/platform"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/cfgcommon"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/geodata"
+	rule2 "github.com/make-money-fast/v2ray-core-v5/infra/conf/rule"
 )
 
 type RouterRulesConfig struct { // nolint: revive

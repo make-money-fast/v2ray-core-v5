@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/transport"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/transport"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 // Handler is an outbound connection that silently swallow the entire payload.

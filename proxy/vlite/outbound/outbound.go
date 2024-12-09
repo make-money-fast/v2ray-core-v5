@@ -18,17 +18,17 @@ import (
 	"github.com/xiaokangwang/VLite/transport/uni/uniclient"
 	client2 "github.com/xiaokangwang/VLite/workers/client"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/environment"
-	"github.com/v2fly/v2ray-core/v5/common/environment/envctx"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/net/packetaddr"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/common/signal"
-	"github.com/v2fly/v2ray-core/v5/common/task"
-	"github.com/v2fly/v2ray-core/v5/transport"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/udp"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/envctx"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/net/packetaddr"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/common/signal"
+	"github.com/make-money-fast/v2ray-core-v5/common/task"
+	"github.com/make-money-fast/v2ray-core-v5/transport"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/udp"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

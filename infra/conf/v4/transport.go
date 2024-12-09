@@ -1,9 +1,9 @@
 package v4
 
 import (
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/transport"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/transport"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 type TransportConfig struct {

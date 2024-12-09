@@ -6,9 +6,9 @@ import (
 
 	"github.com/vincent-petithory/dataurl"
 
-	"github.com/v2fly/v2ray-core/v5/app/subscription"
-	"github.com/v2fly/v2ray-core/v5/app/subscription/documentfetcher"
-	"github.com/v2fly/v2ray-core/v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription/documentfetcher"
+	"github.com/make-money-fast/v2ray-core-v5/common"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

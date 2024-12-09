@@ -8,12 +8,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/observatory"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/dice"
-	"github.com/v2fly/v2ray-core/v5/features"
-	"github.com/v2fly/v2ray-core/v5/features/extension"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/observatory"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/dice"
+	"github.com/make-money-fast/v2ray-core-v5/features"
+	"github.com/make-money-fast/v2ray-core-v5/features/extension"
 )
 
 // LeastLoadStrategy represents a least load balancing strategy

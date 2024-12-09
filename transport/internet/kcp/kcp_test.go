@@ -7,19 +7,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/v2fly/v2ray-core/v5/common/environment"
-	"github.com/v2fly/v2ray-core/v5/common/environment/envctx"
-	"github.com/v2fly/v2ray-core/v5/common/environment/systemnetworkimpl"
-	"github.com/v2fly/v2ray-core/v5/common/environment/transientstorageimpl"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/envctx"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/systemnetworkimpl"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/transientstorageimpl"
 
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/errors"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
-	. "github.com/v2fly/v2ray-core/v5/transport/internet/kcp"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
+	. "github.com/make-money-fast/v2ray-core-v5/transport/internet/kcp"
 )
 
 func TestDialAndListen(t *testing.T) {

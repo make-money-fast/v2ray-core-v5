@@ -1,8 +1,8 @@
 package encoding
 
 import (
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/protocol"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

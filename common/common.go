@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/v2fly/v2ray-core/v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

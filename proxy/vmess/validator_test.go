@@ -3,11 +3,11 @@ package vmess_test
 import (
 	"testing"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/protocol"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/common/uuid"
-	. "github.com/v2fly/v2ray-core/v5/proxy/vmess"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/common/uuid"
+	. "github.com/make-money-fast/v2ray-core-v5/proxy/vmess"
 )
 
 func toAccount(a *Account) protocol.Account {

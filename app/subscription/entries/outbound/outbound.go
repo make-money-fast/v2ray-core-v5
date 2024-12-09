@@ -1,9 +1,9 @@
 package outbound
 
 import (
-	"github.com/v2fly/v2ray-core/v5/app/subscription/entries"
-	"github.com/v2fly/v2ray-core/v5/app/subscription/specs"
-	"github.com/v2fly/v2ray-core/v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription/entries"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription/specs"
+	"github.com/make-money-fast/v2ray-core-v5/common"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

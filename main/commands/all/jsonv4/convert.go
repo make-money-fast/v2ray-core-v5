@@ -10,12 +10,12 @@ import (
 	"google.golang.org/protobuf/proto"
 	"gopkg.in/yaml.v3"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/jsonpb"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/merge"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/v2jsonpb"
-	"github.com/v2fly/v2ray-core/v5/main/commands/base"
-	"github.com/v2fly/v2ray-core/v5/main/commands/helpers"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/jsonpb"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/merge"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/v2jsonpb"
+	"github.com/make-money-fast/v2ray-core-v5/main/commands/base"
+	"github.com/make-money-fast/v2ray-core-v5/main/commands/helpers"
 )
 
 var cmdConvert = &base.Command{

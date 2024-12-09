@@ -5,23 +5,23 @@ import (
 	"testing"
 	_ "unsafe"
 
-	"github.com/v2fly/v2ray-core/v5/common/environment/systemnetworkimpl"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/systemnetworkimpl"
 
-	"github.com/v2fly/v2ray-core/v5/common/environment"
-	"github.com/v2fly/v2ray-core/v5/common/environment/envctx"
-	"github.com/v2fly/v2ray-core/v5/common/environment/transientstorageimpl"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/envctx"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/transientstorageimpl"
 
 	"google.golang.org/protobuf/types/known/anypb"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/policy"
-	. "github.com/v2fly/v2ray-core/v5/app/proxyman/outbound"
-	"github.com/v2fly/v2ray-core/v5/app/stats"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/features/outbound"
-	"github.com/v2fly/v2ray-core/v5/proxy/freedom"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/policy"
+	. "github.com/make-money-fast/v2ray-core-v5/app/proxyman/outbound"
+	"github.com/make-money-fast/v2ray-core-v5/app/stats"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/features/outbound"
+	"github.com/make-money-fast/v2ray-core-v5/proxy/freedom"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 func TestInterfaces(t *testing.T) {

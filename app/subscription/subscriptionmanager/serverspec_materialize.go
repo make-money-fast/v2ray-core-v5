@@ -1,11 +1,11 @@
 package subscriptionmanager
 
 import (
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/app/subscription/specs"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/proxyman"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription/specs"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 func (s *SubscriptionManagerImpl) materialize(subscriptionName, tagName string, serverSpec *specs.SubscriptionServerConfig) (*core.OutboundHandlerConfig, error) {

@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v5/app/router"
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/cfgcommon"
+	"github.com/make-money-fast/v2ray-core-v5/app/router"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/cfgcommon"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

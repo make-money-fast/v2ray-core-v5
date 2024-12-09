@@ -4,9 +4,9 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

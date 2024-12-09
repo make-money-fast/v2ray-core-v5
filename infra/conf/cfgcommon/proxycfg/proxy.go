@@ -1,6 +1,6 @@
 package proxycfg
 
-import "github.com/v2fly/v2ray-core/v5/transport/internet"
+import "github.com/make-money-fast/v2ray-core-v5/transport/internet"
 
 type ProxyConfig struct {
 	Tag                 string `json:"tag"`

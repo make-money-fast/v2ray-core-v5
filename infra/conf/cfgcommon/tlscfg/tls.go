@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/v2fly/v2ray-core/v5/common/platform/filesystem"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/cfgcommon"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/tls"
+	"github.com/make-money-fast/v2ray-core-v5/common/platform/filesystem"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/cfgcommon"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/tls"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

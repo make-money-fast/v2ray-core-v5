@@ -3,8 +3,8 @@ package memconservative
 import (
 	"runtime"
 
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/geodata"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/geodata"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

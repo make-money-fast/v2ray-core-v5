@@ -6,13 +6,13 @@ import (
 	gonet "net"
 	"net/http"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
 
-	"github.com/v2fly/v2ray-core/v5/app/subscription"
-	"github.com/v2fly/v2ray-core/v5/app/subscription/documentfetcher"
-	"github.com/v2fly/v2ray-core/v5/common/environment"
-	"github.com/v2fly/v2ray-core/v5/common/environment/envctx"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription"
+	"github.com/make-money-fast/v2ray-core-v5/app/subscription/documentfetcher"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/envctx"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

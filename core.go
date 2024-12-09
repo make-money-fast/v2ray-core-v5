@@ -14,7 +14,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/v2fly/v2ray-core/v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
 )
 
 var (

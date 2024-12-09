@@ -5,13 +5,13 @@ import (
 	gonet "net"
 	"time"
 
-	"github.com/v2fly/v2ray-core/v5/transport/internet/transportcommon"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/transportcommon"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/request"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/request"
 )
 
 type server struct {

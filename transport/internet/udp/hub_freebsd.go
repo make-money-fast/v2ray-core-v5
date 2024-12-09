@@ -8,9 +8,9 @@ import (
 	"encoding/gob"
 	"io"
 
-	"github.com/v2fly/v2ray-core/v5/common/errors"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 // RetrieveOriginalDest from stored laddr, caddr

@@ -1,7 +1,7 @@
 package geodata
 
 import (
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

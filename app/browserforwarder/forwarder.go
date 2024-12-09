@@ -10,11 +10,11 @@ import (
 
 	"github.com/v2fly/BrowserBridge/handler"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/platform/securedload"
-	"github.com/v2fly/v2ray-core/v5/features/extension"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/platform/securedload"
+	"github.com/make-money-fast/v2ray-core-v5/features/extension"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

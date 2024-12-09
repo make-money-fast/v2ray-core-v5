@@ -9,12 +9,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/serial"
-	"github.com/v2fly/v2ray-core/v5/common/signal/done"
-	"github.com/v2fly/v2ray-core/v5/features/outbound"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/v5cfg"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/serial"
+	"github.com/make-money-fast/v2ray-core-v5/common/signal/done"
+	"github.com/make-money-fast/v2ray-core-v5/features/outbound"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/v5cfg"
 )
 
 // Commander is a V2Ray feature that provides gRPC methods to external clients.

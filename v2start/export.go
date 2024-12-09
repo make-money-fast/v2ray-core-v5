@@ -1,9 +1,9 @@
 package v2start
 
 import (
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/main/commands/base"
-	_ "github.com/v2fly/v2ray-core/v5/main/distro/all"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/main/commands/base"
+	_ "github.com/make-money-fast/v2ray-core-v5/main/distro/all"
 	"os"
 	"os/signal"
 	"runtime"

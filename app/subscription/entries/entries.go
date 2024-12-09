@@ -1,6 +1,6 @@
 package entries
 
-import "github.com/v2fly/v2ray-core/v5/app/subscription/specs"
+import "github.com/make-money-fast/v2ray-core-v5/app/subscription/specs"
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen
 

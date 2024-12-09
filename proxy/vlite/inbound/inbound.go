@@ -18,14 +18,14 @@ import (
 	"github.com/xiaokangwang/VLite/transport/uni/uniserver"
 	"github.com/xiaokangwang/VLite/workers/server"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/environment"
-	"github.com/v2fly/v2ray-core/v5/common/environment/envctx"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/common/signal/done"
-	"github.com/v2fly/v2ray-core/v5/features/routing"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment"
+	"github.com/make-money-fast/v2ray-core-v5/common/environment/envctx"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/common/signal/done"
+	"github.com/make-money-fast/v2ray-core-v5/features/routing"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

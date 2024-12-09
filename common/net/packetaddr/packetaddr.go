@@ -2,12 +2,12 @@ package packetaddr
 
 import (
 	"bytes"
-	"github.com/v2fly/v2ray-core/v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
 	gonet "net"
 
-	"github.com/v2fly/v2ray-core/v5/common/buf"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/protocol"
+	"github.com/make-money-fast/v2ray-core-v5/common/buf"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/protocol"
 )
 
 var addrParser = protocol.NewAddressParser(

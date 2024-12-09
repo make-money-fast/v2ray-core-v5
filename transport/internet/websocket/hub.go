@@ -13,12 +13,12 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	http_proto "github.com/v2fly/v2ray-core/v5/common/protocol/http"
-	"github.com/v2fly/v2ray-core/v5/common/session"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
-	v2tls "github.com/v2fly/v2ray-core/v5/transport/internet/tls"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	http_proto "github.com/make-money-fast/v2ray-core-v5/common/protocol/http"
+	"github.com/make-money-fast/v2ray-core-v5/common/session"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
+	v2tls "github.com/make-money-fast/v2ray-core-v5/transport/internet/tls"
 )
 
 type requestHandler struct {

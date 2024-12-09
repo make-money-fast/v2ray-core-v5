@@ -8,14 +8,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v5/app/dns"
-	"github.com/v2fly/v2ray-core/v5/app/dns/fakedns"
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/common/platform"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/cfgcommon"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/geodata"
-	rule2 "github.com/v2fly/v2ray-core/v5/infra/conf/rule"
+	"github.com/make-money-fast/v2ray-core-v5/app/dns"
+	"github.com/make-money-fast/v2ray-core-v5/app/dns/fakedns"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/common/platform"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/cfgcommon"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/geodata"
+	rule2 "github.com/make-money-fast/v2ray-core-v5/infra/conf/rule"
 )
 
 type NameServerConfig struct {

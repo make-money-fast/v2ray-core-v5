@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	log "github.com/v2fly/v2ray-core/v5/common/log"
+	log "github.com/make-money-fast/v2ray-core-v5/common/log"
 )
 
 // LogHandler is a mock of Handler interface.

@@ -3,7 +3,7 @@ package assembly
 import (
 	"context"
 
-	"github.com/v2fly/v2ray-core/v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

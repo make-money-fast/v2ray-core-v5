@@ -6,10 +6,10 @@ import (
 
 	utls "github.com/refraction-networking/utls"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/security"
-	"github.com/v2fly/v2ray-core/v5/transport/internet/tls"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/security"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet/tls"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

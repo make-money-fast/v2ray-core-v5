@@ -9,10 +9,10 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	net "github.com/v2fly/v2ray-core/v5/common/net"
-	routing "github.com/v2fly/v2ray-core/v5/features/routing"
-	transport "github.com/v2fly/v2ray-core/v5/transport"
-	internet "github.com/v2fly/v2ray-core/v5/transport/internet"
+	net "github.com/make-money-fast/v2ray-core-v5/common/net"
+	routing "github.com/make-money-fast/v2ray-core-v5/features/routing"
+	transport "github.com/make-money-fast/v2ray-core-v5/transport"
+	internet "github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 // ProxyInbound is a mock of Inbound interface.

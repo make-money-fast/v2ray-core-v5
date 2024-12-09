@@ -3,7 +3,7 @@ package geodata
 import (
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v5/app/router/routercommon"
+	"github.com/make-money-fast/v2ray-core-v5/app/router/routercommon"
 )
 
 type loader struct {

@@ -3,17 +3,17 @@ package inbound
 import (
 	"context"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/dice"
-	"github.com/v2fly/v2ray-core/v5/common/errors"
-	"github.com/v2fly/v2ray-core/v5/common/mux"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/features/policy"
-	"github.com/v2fly/v2ray-core/v5/features/stats"
-	"github.com/v2fly/v2ray-core/v5/proxy"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/app/proxyman"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/dice"
+	"github.com/make-money-fast/v2ray-core-v5/common/errors"
+	"github.com/make-money-fast/v2ray-core-v5/common/mux"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/features/policy"
+	"github.com/make-money-fast/v2ray-core-v5/features/stats"
+	"github.com/make-money-fast/v2ray-core-v5/proxy"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 func getStatCounter(v *core.Instance, tag string) (stats.Counter, stats.Counter) {

@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/miekg/dns"
-	"github.com/v2fly/v2ray-core/v5/common/net"
-	"github.com/v2fly/v2ray-core/v5/transport/internet"
+	"github.com/make-money-fast/v2ray-core-v5/common/net"
+	"github.com/make-money-fast/v2ray-core-v5/transport/internet"
 )
 
 func ApplyECH(c *Config, config *tls.Config) error {

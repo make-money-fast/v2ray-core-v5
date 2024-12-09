@@ -5,9 +5,9 @@ import (
 	"net"
 	"sync"
 
-	core "github.com/v2fly/v2ray-core/v5"
-	"github.com/v2fly/v2ray-core/v5/features"
-	feature_stats "github.com/v2fly/v2ray-core/v5/features/stats"
+	core "github.com/make-money-fast/v2ray-core-v5"
+	"github.com/make-money-fast/v2ray-core-v5/features"
+	feature_stats "github.com/make-money-fast/v2ray-core-v5/features/stats"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

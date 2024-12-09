@@ -3,8 +3,8 @@ package sniffer
 import (
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/infra/conf/cfgcommon"
+	"github.com/make-money-fast/v2ray-core-v5/app/proxyman"
+	"github.com/make-money-fast/v2ray-core-v5/infra/conf/cfgcommon"
 )
 
 //go:generate go run github.com/v2fly/v2ray-core/v5/common/errors/errorgen

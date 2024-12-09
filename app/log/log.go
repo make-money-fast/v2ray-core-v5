@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/common/log"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/common/log"
 )
 
 // Instance is a log.Handler that handles logs.

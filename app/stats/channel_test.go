@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/v2fly/v2ray-core/v5/app/stats"
-	"github.com/v2fly/v2ray-core/v5/common"
-	"github.com/v2fly/v2ray-core/v5/features/stats"
+	. "github.com/make-money-fast/v2ray-core-v5/app/stats"
+	"github.com/make-money-fast/v2ray-core-v5/common"
+	"github.com/make-money-fast/v2ray-core-v5/features/stats"
 )
 
 func TestStatsChannel(t *testing.T) {
