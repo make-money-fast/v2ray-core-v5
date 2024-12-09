@@ -1,0 +1,40 @@
+{
+  "inbounds": [
+    {
+      "tag": "kcp-demo",
+      "port": 30103,
+      "listen": "0.0.0.0",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "d98a4267-94fc-4fc8-a6d9-dfd240c91532"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "kcp",
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 20,
+          "uplinkCapacity": 5,
+          "downlinkCapacity": 20,
+          "congestion": false,
+          "readBufferSize": 1,
+          "writeBufferSize": 1,
+          "header": {
+            "type": "wechat-video"
+          },
+          "seed": ""
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}

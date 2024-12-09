@@ -81,7 +81,7 @@ func (c *Commander) Start() error {
 	}()
 
 	if err := c.ohm.RemoveHandler(context.Background(), c.tag); err != nil {
-		newError("failed to remove existing handler").WriteToLog()
+		newError("failed to remove existing handler:" + err.Error()).WriteToLog()
 	}
 
 	return c.ohm.AddHandler(context.Background(), &Outbound{
